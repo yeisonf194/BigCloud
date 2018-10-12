@@ -2,10 +2,24 @@
 	margin: 0px;
 	padding: 0px;
 	box-sizing:border-box;
+	max-width: 3000px;
+	max-height: 1500px;
 }
 .logo img{
 	width:10%;
 	display:block;
+}
+.logo:hover a img{
+	-moz-transform: scale(1.1) rotate(360deg);
+-webkit-transform: scale(1.1) rotate(360deg);
+-o-transform: scale(1.1) rotate(360deg);
+-ms-transform: scale(1.1) rotate(360deg);
+transform: scale(1.1) rotate(360deg);
+-webkit-transition: all 500ms ease-in-out;
+-moz-transition: all 500ms ease-in-out;
+-ms-transition: all 500ms ease-in-out;
+-o-transition: all 500ms ease-in-out;
+transition: all 500ms ease-in-out;
 }
 header, .text, .contenedor, .relativa{
 	width: 70%;
@@ -29,6 +43,56 @@ header, .text, .contenedor, .relativa{
 	font-size: 20px;
 	color:#4C4949;
 }
+.relativa7{
+	position:relative;
+	top:90px;
+	left:100px;
+	width:18px;
+	height: 41px;
+}
+.relativa7 ul li{
+	list-style:none;
+
+}
+.face, .twt, .insta, .google{
+	width:25px;
+	height: 25px;
+	text-align: center;
+	font-size: 17px;
+	color:white;
+	border-radius: 15px;
+	padding: 3px;
+	margin-bottom: 10px;
+}
+.face{
+	background: #050DB3;
+}
+.twt{
+	background-color: #219EFE;
+	
+}
+.insta{
+	background: rgb(229,112,231); /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover, rgba(229,112,231,1) 0%, rgba(255,0,127,1) 94%); /* FF3.6-15 */
+background: -webkit-radial-gradient(center, ellipse cover, rgba(229,112,231,1) 0%,rgba(255,0,127,1) 94%); /* Chrome10-25,Safari5.1-6 */
+background: radial-gradient(ellipse at center, rgba(229,112,231,1) 0%,rgba(255,0,127,1) 94%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e570e7', endColorstr='#ff007f',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+.google{
+	background:#B70606;
+}
+li:hover .face, li:hover .twt,li:hover .insta,li:hover .google{
+	-moz-transform: scale(1.4) translateX(10px) translateY(3px);
+-webkit-transform: scale(1.4) translateX(10px) translateY(3px);
+-o-transform: scale(1.4) translateX(10px) translateY(3px);
+-ms-transform: scale(1.4) translateX(10px) translateY(3px);
+transform: scale(1.4) translateX(10px) translateY(3px);
+-webkit-transition: all 500ms ease-in-out;
+-moz-transition: all 500ms ease-in-out;
+-ms-transition: all 500ms ease-in-out;
+-o-transition: all 500ms ease-in-out;
+transition: all 500ms ease-in-out;
+}
 .boton{
 	display:inline-block;
 	background-color: #FF1493;
@@ -48,7 +112,13 @@ a:hover .boton{
 	clear: both;
 	padding: 20px;
 }
-.imagen img, .texto {
+.foot2{
+
+	background-color: black;
+	clear: both;
+	padding: 20px;
+}
+.imagen img, .texto h1 ul li {
 	margin:70px 40px;
 	float: left;
 }
@@ -87,7 +157,8 @@ h1{
 	color:#484747;
 	font-size: 17px;
 }
-section{
+.main2{
+	border-bottom:solid 8px #FF1493;
 	background:#E1E1E1;
 	background-size: cover;
 }
@@ -217,4 +288,33 @@ fieldset{
 .aclarar{
 	color: #B61F1F;
 	font-size: 12px;
+}
+@media only screen and ( max-width: 1024px){
+	.imgfondo{
+		width: 100%;
+	}
+}
+@media only screen and ( max-width: 768px){
+	header, .text, .contenedor, .relativa{
+		width: 100%;
+	}
+	h1 ul li{
+		font-size: 13px;
+	}
+}
+@media only screen and ( max-width: 480px){
+	.imgfondo{
+		width: 100%;
+	}
+	h1 ul li{
+		font-size: 10px;
+	}
+}
+@media only screen and ( max-width: 320px){
+	header, .text, .contenedor, .relativa{
+		width: 100%;
+	}
+	h1 ul li{
+		font-size: 7px;
+	}
 }
