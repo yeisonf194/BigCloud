@@ -121,10 +121,11 @@ a:hover .boton{
 	padding: 20px;
 }
 .foot2{
-
 	background-color: black;
 	clear: both;
 	padding: 20px;
+	font-size: 12px;
+	border-top: solid 2px #FF1493;
 }
 .imagen img, .texto h1 ul li {
 	margin:70px 40px;
@@ -139,7 +140,6 @@ a:hover .boton{
 }
 .relativa2{
 	color:white;
-	font-size: 20px;
 }
 h1 a{
 	font-size: 18px;
@@ -280,9 +280,17 @@ table tr td{
 	color:#4A4A4A;
 	font-weight: bolder;
 }
-.btn{
-	position: relative;
+.btn2{
+	position:relative;
 	left:800px;
+	width:120px;
+	height: 30px;
+	color:white;
+	background-color: #FF1493;
+	padding: 5px;
+
+}
+.btn{
 	width:120px;
 	height: 30px;
 	color:white;
@@ -293,6 +301,11 @@ a:hover .btn{
 	background-color:#ED235D;
 	box-shadow: 5px 5px #8D8D8D;
 	transition-duration: 500ms
+}
+a:hover .btn2{
+	background-color:#ED235D;
+	box-shadow: 5px 5px #8D8D8D;
+	transition-duration: 500ms;
 }
 .formulario{
 	border:solid 2px #FF1493;
