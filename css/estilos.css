@@ -21,7 +21,7 @@ transform: scale(1.1) rotate(360deg);
 -o-transition: all 500ms ease-in-out;
 transition: all 500ms ease-in-out;
 }
-header, .text, .contenedor, .relativa{
+header, .text, .seccion2, .relativa, .relativa2{
 	width: 70%;
 	margin: 10px auto;
 	max-width: 1000px;
@@ -43,11 +43,19 @@ header, .text, .contenedor, .relativa{
 	font-size: 20px;
 	color:#4C4949;
 }
+.seccion2{
+	width:100%;
+	color:#4C4949;
+}
+.texto ul li{
+	font-size: 20px;
+	color:;
+}
 .relativa7{
 	position:relative;
 	top:90px;
 	left:100px;
-	width:18px;
+	width:23px;
 	height: 41px;
 }
 .relativa7 ul li{
@@ -55,10 +63,10 @@ header, .text, .contenedor, .relativa{
 
 }
 .face, .twt, .insta, .google{
-	width:25px;
-	height: 25px;
+	width:30px;
+	height: 30px;
 	text-align: center;
-	font-size: 17px;
+	font-size: 22px;
 	color:white;
 	border-radius: 15px;
 	padding: 3px;
@@ -130,12 +138,12 @@ a:hover .boton{
 	margin:70px 0px;
 }
 .relativa2{
-	position:relative;
-	left:220px;
 	color:white;
+	font-size: 20px;
 }
-.link{
-	color: dotted 1px #AAAAAA;
+h1 a{
+	font-size: 18px;
+	color:#696969;
 }
 h1{
 	font-family: Calibri Light, Arial;
@@ -172,24 +180,31 @@ h1{
 .opciones{
 	height: 20px;
 }
-.ind{
+.ind, .ind2{
+	position: relative;
 	font-family: Calibri Light, Arial;
 	font-weight: bold;
 	float:left;
-	margin:0px 60px;
+	margin:0px 30px;
+}
+.ind{
+	left:100px;
+}
+.ind2{
+	left:110px;
 }
 .relativa3{
 	clear: both;
 	position: relative;
-	left: 300px;
+	left: 30px;
 }
 .relativa4{
 	position: relative;
-	left: 303px;
+	left: 40px;
 }
 .relativa5{
 	position: relative;
-	left: 306px;
+	left: 50px;
 }
 .relativa6{
 	position:relative;
@@ -199,13 +214,13 @@ h1{
 .p1{
 	background:#5F6A6A;
 	width: 50px;
-	height: 30px;
+	height: 37px;
 	border-right: solid 1px white;
 }
 .p2{
 	background:#5F6A6A;
 	width: 100px;
-	height: 30px;
+	height: 37px;
 }
 .p1, .p2{
 	float:left;
@@ -213,25 +228,26 @@ h1{
 .bla{
 	color:white;
 	font-size: 20px;
+	margin:5px;
 	text-align: center;
 }
 .c1{
 	font-weight: bolder;
-	text-align: center;
+	margin:5px;
 	color:#7CDF13;
 	font-size: 30px;
 	text-align: center;
 }
 .c2{
 	font-weight: bolder;
-	text-align: center;
+	margin:5px;
 	color:#FF6C00;
 	font-size: 30px;
 	text-align: center;
 }
 .c3{
 	font-weight: bolder;
-	text-align: center;
+	margin:5px;
 	color:#00FF55;
 	font-size: 30px;
 	text-align: center;
@@ -254,7 +270,7 @@ table{
 }
 table tr td{
 	border-bottom: solid 1px #959B97;
-	padding: 10px;
+	padding: 12px;
 	margin:0px 20px;
 }
 .tb{
